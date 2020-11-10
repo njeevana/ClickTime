@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-10T13:38:36 EST" name="Default suite" finished-at="2020-11-10T13:39:26 EST" duration-ms="50433">
+    <groups>
+    </groups>
+    <test started-at="2020-11-10T13:38:36 EST" name="Default test" finished-at="2020-11-10T13:39:26 EST" duration-ms="50433">
+      <class name="com.clicktime.tests.FeedBackPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:36 EST" name="setup" finished-at="2020-11-10T13:38:41 EST" duration-ms="5499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateFeedBackSubmission()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:41 EST" name="ValidateFeedBackSubmission" finished-at="2020-11-10T13:38:42 EST" duration-ms="1043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFeedBackSubmission -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:42 EST" name="teardown" finished-at="2020-11-10T13:38:42 EST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:42 EST" name="setup" finished-at="2020-11-10T13:38:47 EST" duration-ms="4266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateFeedBackSubmissionPageObjects()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:47 EST" name="ValidateFeedBackSubmissionPageObjects" finished-at="2020-11-10T13:38:47 EST" duration-ms="485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFeedBackSubmissionPageObjects -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:47 EST" name="teardown" finished-at="2020-11-10T13:38:48 EST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:48 EST" name="setup" finished-at="2020-11-10T13:38:53 EST" duration-ms="4793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateInvalidEmailAssertion()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:53 EST" name="ValidateInvalidEmailAssertion" finished-at="2020-11-10T13:38:54 EST" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateInvalidEmailAssertion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:54 EST" name="teardown" finished-at="2020-11-10T13:38:54 EST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:54 EST" name="setup" finished-at="2020-11-10T13:38:59 EST" duration-ms="4430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateMissingFieldsAssertion(com.clicktime.entity.FeedBack)[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:38:59 EST" name="ValidateMissingFieldsAssertion" data-provider="getFeedBackData" finished-at="2020-11-10T13:39:00 EST" duration-ms="1033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.clicktime.entity.FeedBack@5972d253]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMissingFieldsAssertion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:00 EST" name="teardown" finished-at="2020-11-10T13:39:00 EST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:00 EST" name="setup" finished-at="2020-11-10T13:39:04 EST" duration-ms="4567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateMissingFieldsAssertion(com.clicktime.entity.FeedBack)[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:04 EST" name="ValidateMissingFieldsAssertion" data-provider="getFeedBackData" finished-at="2020-11-10T13:39:06 EST" duration-ms="1079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.clicktime.entity.FeedBack@58294867]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMissingFieldsAssertion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:06 EST" name="teardown" finished-at="2020-11-10T13:39:06 EST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:06 EST" name="setup" finished-at="2020-11-10T13:39:10 EST" duration-ms="4492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateMissingFieldsAssertion(com.clicktime.entity.FeedBack)[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:10 EST" name="ValidateMissingFieldsAssertion" data-provider="getFeedBackData" finished-at="2020-11-10T13:39:11 EST" duration-ms="982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.clicktime.entity.FeedBack@77a2aa4a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMissingFieldsAssertion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:11 EST" name="teardown" finished-at="2020-11-10T13:39:12 EST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:12 EST" name="setup" finished-at="2020-11-10T13:39:16 EST" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateMissingFieldsAssertion(com.clicktime.entity.FeedBack)[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:16 EST" name="ValidateMissingFieldsAssertion" data-provider="getFeedBackData" finished-at="2020-11-10T13:39:17 EST" duration-ms="950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.clicktime.entity.FeedBack@74dbb1ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMissingFieldsAssertion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:17 EST" name="teardown" finished-at="2020-11-10T13:39:17 EST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:17 EST" name="setup" finished-at="2020-11-10T13:39:22 EST" duration-ms="5363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFeedBackFieldsLengthLimit()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:22 EST" name="validateFeedBackFieldsLengthLimit" finished-at="2020-11-10T13:39:24 EST" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFeedBackFieldsLengthLimit -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.clicktime.tests.FeedBackPageTest@3c947bc5]" started-at="2020-11-10T13:39:24 EST" name="teardown" finished-at="2020-11-10T13:39:26 EST" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.clicktime.tests.FeedBackPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
